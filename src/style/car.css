@@ -191,20 +191,27 @@ h1 {
 
 
 .info-grid {
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.info-grid::after {
+    content: "";
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    right: 0;
+    border-bottom: 1px dotted #000;
+
 }
 
 .label-right {
-  text-align: right; /* Текст по правому краю */
-}
+  text-align: left; /* Текст по правому краю */
 
-.dotted-line {
-  border-bottom: 1px dotted #000;
-  min-width: 20px;
 }
 
 .value-left {
-  text-align: left; /* Значения по левому краю */
+  text-align: right; /* Значения по левому краю */
 }
+
