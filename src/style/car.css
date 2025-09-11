@@ -215,3 +215,26 @@ h1 {
   text-align: right; /* Значения по левому краю */
 }
 
+.row {
+display: flex;
+align-items: center;
+gap: 10px; /* расстояние между элементами */
+}
+
+.label {
+white-space: nowrap;
+font-size: 20px;
+color: #777;
+}
+
+.dots {
+flex: 1;
+margin-top: 5px;
+border-bottom: 2px dotted #ccc; /* сами точки */
+}
+
+.value {
+white-space: nowrap;
+font-size: 22px;
+font-weight: bold;
+}
