@@ -207,34 +207,41 @@ h1 {
 }
 
 .label-right {
-  text-align: left; /* Текст по правому краю */
+    text-align: left; /* Текст по правому краю */
 
 }
 
 .value-left {
-  text-align: right; /* Значения по левому краю */
+    text-align: right; /* Значения по левому краю */
 }
 
 .row {
-display: flex;
-align-items: center;
-gap: 10px; /* расстояние между элементами */
+    display: flex;
+    align-items: center;
+    gap: 10px; /* расстояние между элементами */
 }
 
 .label {
-white-space: nowrap;
-font-size: 20px;
-color: #777;
+    white-space: nowrap;
+    font-size: 20px;
+    color: #777;
 }
 
 .dots {
-flex: 1;
-margin-top: 5px;
-border-bottom: 2px dotted #ccc; /* сами точки */
+    flex: 1;
+    margin-top: 5px;
+    border-bottom: 2px dotted #ccc; /* сами точки */
 }
 
 .value {
-white-space: nowrap;
-font-size: 22px;
-font-weight: bold;
+    white-space: nowrap;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.btn-card-car {
+    align-items: center;
+    width: 363px;
+    height: 56px;
+    margin-top: 100px;
 }
